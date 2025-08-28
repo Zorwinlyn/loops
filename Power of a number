@@ -1,0 +1,7 @@
+int baseNum = 2, exp = 5, result = 1, j = 1;
+do
+{
+    result *= baseNum;
+    j++;
+} while (j <= exp);
+Console.WriteLine(result);
